@@ -1,6 +1,6 @@
 from aiohttp import web
 
-from src.api.jobs import get_jobs, create_job, get_job, update_job, delete_job
+from src.api.jobs import create_job, get_jobs, get_job, update_job, delete_job
 
 
 def setup_routers(app: web.Application) -> None:
