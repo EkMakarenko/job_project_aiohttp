@@ -4,6 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+aiohttp = "*"
+sqlalchemy = "*"
+alembic = "*"
+aiojobs = "*"
+pydantic = "*"
+aiosqlite = "*"
+greenlet = "*"
 
 [dev-packages]
 
